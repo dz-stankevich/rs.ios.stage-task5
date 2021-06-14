@@ -1,15 +1,23 @@
 # Knapsack
 
 You are developing an application - the companion of a seasoned hiker. 
+Вы разрабатываете приложение - спутник бывалого путешественника.
 
 It helps you choose the right food and drink for the trip. To go forward, the hiker needs to eat and drink.
 As soon as his body runs out of food or water, the tourist stops to eat, drink, or both at once.
+Это поможет вам выбрать правильную еду и напитки для поездки. Чтобы идти вперед, путешественнику нужно есть и пить.
+Как только в его организме заканчивается еда или вода, турист прекращает есть, пить или и то, и другое сразу.
 
 When going on a hike, a tourist chooses what food and drink to take with him.
+Отправляясь в поход, турист выбирает, какую еду и питье взять с собой.
 He has **n** different products at his disposal, which weigh `fw1 ... fwi ... fwn` grams and gives the body sufficient nutrients to travel `fd1 ... fdi ... fdn` kilometers. Also, the hiker can choose any of **m** drinks that weigh `dw1 ... dwi ... dwm` grams and give the body sufficient fluid to travel `dd1 ... ddi ... ddm` kilometres.
+В его распоряжении ** n ** различных продуктов, которые весят «fw1 ... fwi ... fwn» граммов и дают организму достаточно питательных веществ для проезда «fd1 ... fdi ... fdn» километров. Кроме того, путешественник может выбрать любой из ** m ** напитков, который весит dw1 ... dwi ... dwm` граммов и дает организму достаточно жидкости для проезда dd1 ... ddi ... ddm километров.
+
 In total, the hiker can carry no more than **k** grams of cargo. He wants to get away **as far as possible**. What is the **maximum** number of kilometres a hiker can cover if he packs his backpack **optimally**?
+Всего турист может перевезти не более ** k ** граммов груза. Он хочет уйти ** как можно дальше **. Какое ** максимальное ** количество километров может преодолеть турист, если он ** упаковывает рюкзак оптимальным образом **?
 
 There are no other weights in the backpack. 
+Других грузов в рюкзаке нет.
 
 ## Constraints
 ```
